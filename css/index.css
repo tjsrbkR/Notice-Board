@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    height: 100%;
+}

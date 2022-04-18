@@ -1,0 +1,28 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    
+}
+.loginBox{
+    border: 10px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+}
+.input-box{
+    height: 100%;
+    width: 100%;
+}
+input{
+    width: 100%;
+}
+text{
+    font-size: 1.5rem;
+}
+.mg15{
+    margin: 15px;
+}
