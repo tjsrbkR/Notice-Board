@@ -4,25 +4,25 @@
     justify-content: center;
 }
 
-.login{
-    
-}
 .loginBox{
-    border: 10px solid black;
-    border-radius: 10px;
+    font-size: 1.5rem;
     width: 500px;
     height: 500px;
 }
 .input-box{
-    height: 100%;
-    width: 100%;
+    width: 50%;
 }
-input{
+.input{
     width: 100%;
+    height: 30px;
+    font-size: 15px;
 }
 text{
     font-size: 1.5rem;
 }
 .mg15{
     margin: 15px;
+}
+.mgb10{
+    margin-bottom: 10px;
 }
