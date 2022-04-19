@@ -1,9 +1,11 @@
 const $id = document.getElementById("ID");
 const $pw = document.getElementById("PW");
 const $login = document.getElementById("BtnLogin");
+const $BtnJoin = document.getElementById("BtnJoin");
+
 $login.addEventListener("click",discrimination);
 $pw.addEventListener("keyup",Enter); 
-
+$BtnJoin.addEventListener("click",Join);
 function discrimination(){
     for(let i =0; i< register.length; i++){
         if($id.value === register[i].id && $pw.value === register[i].pw){
@@ -25,4 +27,8 @@ function Enter(e){
         discrimination();
         $id.focus();
     }
+}
+
+function Join(){
+    location.href ="join.html"    
 }

@@ -1,0 +1,33 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginBox{
+    width: 500px;
+    font-size: 1.5rem;
+    height: 500px;
+}
+.input-box{
+    width: 80%;
+}
+.btn-idck{
+    margin: 15px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.input{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+text{
+    font-size: 1.5rem;
+}
+.mg15{
+    margin: 15px;
+}
+.mgb10{
+    margin-bottom: 10px;
+}
