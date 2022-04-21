@@ -6,4 +6,8 @@ const register = [
 {
     "id":"qwe",
     "pw":"123"
-}]
+}];
+
+const registerId = ["root","qwer"];
+
+const registerPw = ["123456","123456"];

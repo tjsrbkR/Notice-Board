@@ -10,8 +10,9 @@ $PWCK.addEventListener("focusout",PWLength);
 $BtnJoin.addEventListener("click",Submit);
 let temp = 0;
 function IDCk(){
-        for(let i=0;i<register.length; i++){
-            if($Id.value === register[i].id){
+        for(let i=0;i<registerId.length; i++){
+            console.log(registerId);
+            if($Id.value === registerId[i]){
                 $IdCkText.textContent = ''; 
                 $IdCkText.textContent += "중복된 아이디 입니다.";
                 $IdCkText.style.color = "red";
@@ -30,6 +31,7 @@ function IDCk(){
                 $IdCkText.textContent = ''; 
                 $IdCkText.textContent += "사용 가능한 아이디 입니다.";
                 $IdCkText.style.color = "green";
+                console.log(registerId);
                 temp++;
                 // alert("사용 가능한 아이디 입니다.");
                 return false;
@@ -60,11 +62,15 @@ function PWLength(){
 
 function Submit(){
     if(temp === 2){
-        location.href="login.html";
+        temp++;
+        registerId.push($Id.value);
+        registerPw.push($PWCK.value);
+        console.log(registerId);
+        console.log(registerPw);
+        // location.href="login.html";
     }
     else{
-        alert("회원가입 성공");
-        return false;
+        alert("오류");   
     }
 }
 function Enter(e){
